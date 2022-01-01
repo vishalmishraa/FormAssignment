@@ -1,9 +1,12 @@
 {
   "name": "form_mailer",
+  "homepage": "https://myusername.github.io/FormAssignment",
   "version": "1.0.0",
   "description": "data recive implemetation",
   "main": "app.js",
   "scripts": {
+    "predeploy": "npm run server.js",
+    "deploy": "gh-pages -d build",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
@@ -11,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
     "nodemailer": "^6.7.2"
   },
   "devDependencies": {
