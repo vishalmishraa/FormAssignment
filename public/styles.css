@@ -1,0 +1,36 @@
+body{
+    align-items: center;
+    background-color: #45818c;
+    padding-top: 1px;
+    padding-left: 10px;
+    margin-top: 0;
+    font-weight:600;
+    font-size:large;
+
+    
+}
+
+.main input,select,textarea{
+    border: 1px solid blue;
+    padding: 12px 20px;
+    margin-left: 5px;
+    padding: 12px;
+    margin: 1%;
+    padding-right: 150px;
+   
+}
+
+.main table{
+    margin-top: 1px;
+    margin-left: 500px;
+}
+
+.main label{
+    font-size: 130%;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 36%;
+    font-size: 150%;
+}
